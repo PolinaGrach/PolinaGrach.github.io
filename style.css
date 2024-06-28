@@ -1,0 +1,63 @@
+h1 {
+    color:blue
+}
+body {
+    padding: 20px;
+    font: 18px/1.5 sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.sr-only {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    border: 0;
+
+}
+/* Стилизация текстовых полей */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Стилизация кнопок отправки */
+  input[type="submit"] {
+    padding: 10px;
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+  }
+  
+  /* Эффект при наведении на кнопку отправки */
+  input[type="submit"]:hover {
+    background-color: #449d44;
+  }
+  
+  /* Эффект при фокусе на текстовом поле */
+  input[type="text"]:focus {
+    border-color: #66afe9;
+  }
+
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+    z-index: 9999;
+  }
